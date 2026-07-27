@@ -1,0 +1,18 @@
+[project]
+name = "02-linear-algebra-numpy"
+version = "0.1.0"
+description = "线性代数扫盲 — Ch 2 of cnn_fast_onboarding"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.5.1",
+    "pytest==8.3.4",
+]
+
+[tool.uv]
+
+# Use Aliyun PyPI mirror for faster installs in China.
+# Override with UV_INDEX_URL env var if you need the official PyPI.
+# Reference: https://docs.astral.sh/uv/configuration/indexes/
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true

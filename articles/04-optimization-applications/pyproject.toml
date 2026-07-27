@@ -1,0 +1,17 @@
+[project]
+name = "04-optimization-applications"
+version = "0.1.0"
+description = "优化的简单应用 — Ch 4 of cnn_fast_onboarding"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.5.1",
+    "torch==2.13.0",
+    "matplotlib==3.10.1",
+    "pytest==8.3.4",
+]
+
+[tool.uv]
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true

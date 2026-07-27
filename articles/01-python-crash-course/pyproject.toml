@@ -1,0 +1,17 @@
+[project]
+name = "01-python-crash-course"
+version = "0.1.0"
+description = "Python 光速扫盲 — Ch 1 of cnn_fast_onboarding"
+requires-python = ">=3.12"
+dependencies = [
+    "pytest==8.3.4",
+]
+
+[tool.uv]
+
+# Use Aliyun PyPI mirror for faster installs in China.
+# Override with UV_INDEX_URL env var if you need the official PyPI.
+# Reference: https://docs.astral.sh/uv/configuration/indexes/
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true

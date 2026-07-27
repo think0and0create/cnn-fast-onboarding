@@ -1,0 +1,15 @@
+[project]
+name = "03-optimization-torch"
+version = "0.1.0"
+description = "最优化扫盲 — Ch 3 of cnn_fast_onboarding"
+requires-python = ">=3.12"
+dependencies = [
+    "torch==2.13.0",
+    "pytest==8.3.4",
+]
+
+[tool.uv]
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true
